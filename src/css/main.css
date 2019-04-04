@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a, a:hover {
+    text-decoration: none;
+}
+button:focus {
+    outline: 0;
+}
+h3 {
+    color: #000000;
+    /*font-size: 1.3125rem;*/
+}
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #f5f9fc;
+    /*color: #495057;*/
+}
+/********** Home界面 **********/
+.jumbotron {
+    background-color: #ffffff;
+}
+.jumbotron .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 40rem;
+}
+.album {
+    margin: 0 4rem;
+}
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+/********** Main **********/
+.wrapper {
+    display: flex;
+}
+/********** 菜单栏 **********/
+.wrapper>nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    min-width: 250px;
+    max-width: 250px;
+    color: #ced4da;
+    background: #354052;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.brand {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1.15rem 1.5rem;
+    display: block;
+}
+.brand a {
+    color: #f8f9fa;
+}
+.menu {
+    width: 100%;
+    padding: 0;
+}
+.menu>span{
+    font-family: "Yuanti SC";
+    background: transparent;
+    color: #adb5bd!important;
+    padding: .375rem 1.5rem!important;
+    font-size: .75rem;
+}
+.menu-body>a {
+    display: block;
+    padding: .75rem 2.75rem!important;
+    color: #ced4da!important;
+}
+.menu-body:hover {
+    background-color: #2d3646;
+}
+.menu a:hover {
+    color: #ffffff!important;
+}
+.menu-body>.active {
+    background-color: #2d3646;
+}
+/********** 可视化区域 **********/
+.main {
+    width: 100%;
+    min-height: 100vh;
+    min-width: 0;
+    transition: margin-left .4s ease-in-out,left .4s ease-in-out;
+    margin-left: 250px;
+}
+.content {
+    padding: 2.5rem;
+}
+.controller {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* Card */
+.card-header {
+    background-color: #fff;
+}
+.card-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* 功能 */
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+.card-row {
+    margin-left: 0;
+    margin-right: 0;
+    /*padding: 2rem 0 0;*/
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background-color: #ffffff;
+}
+.pd-lr-15px {
+    padding-left: 15px;
+    padding-right: 15px;
+}
