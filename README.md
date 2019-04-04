@@ -2,5 +2,5 @@
 
 ### 队伍名：找工作也太难了吧
 
-点击[查看作品](https://github.com/AshinZhang/work1/build)
+点击[查看作品](https://ashinzhang.github.io/work1/build)
 
