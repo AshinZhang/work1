@@ -84,15 +84,15 @@ export default function() {
     return (
         <Card>
             <Card.Header>
-                <h4>生源地分布</h4>
+                <h4>1-1-3 生源地分布</h4>
             </Card.Header>
             <Card.Body>
                 <div className='row'>
                     <div className='col-12 col-lg-6'>
-                        <Ec option={getMapOption('china', 0, 50, PROVINCE)} h='400px'/>
+                        <Ec option={getMapOption('china', 0, 50, PROVINCE)} h='360px'/>
                     </div>
                     <div className='col-12 col-lg-6'>
-                        <Ec option={getMapOption('浙江', 0, 20, CITY)} h='400px'/>
+                        <Ec option={getMapOption('浙江', 0, 20, CITY)} h='360px'/>
                     </div>
                 </div>
             </Card.Body>

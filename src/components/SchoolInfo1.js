@@ -4,7 +4,7 @@ import Ec from './Ec';
 
 export default function() {
     const option = {
-        color: ['#749aa0', '#df6b66', '#72a375'],
+        color: ['#8cc1aa', '#df6b66', '#7189aa'],
         tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -24,9 +24,6 @@ export default function() {
         },
         xAxis: {
                 type: 'category',
-                axisLine: {
-                    show: false
-                },
                 axisTick: {
                     show: false
                 },
@@ -36,9 +33,6 @@ export default function() {
                 type: 'value',
                 axisLabel: {
                     formatter: '{value}人'
-                },
-                axisLine: {
-                    show: false
                 },
                 axisTick: {
                     show: false
@@ -71,10 +65,10 @@ export default function() {
     return (
         <Card>
             <Card.Header>
-                <h4>年龄分布</h4>
+                <h4>1-1-1 年龄分布</h4>
             </Card.Header>
             <Card.Body>
-                <Ec option={option} h='360px'/>
+                <Ec option={option} h='300px'/>
             </Card.Body>
         </Card>
     );

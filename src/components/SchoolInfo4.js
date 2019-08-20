@@ -34,10 +34,10 @@ export default function() {
     return (
         <Card>
             <Card.Header>
-                <h4>班级人数</h4>
+                <h4>1-1-4 班级人数</h4>
             </Card.Header>
             <Card.Body>
-                <div style={{height: '400px'}} className='overflow-y-scroll'>
+                <div style={{height: '360px'}} className='overflow-y-scroll'>
                     <List keyArr={CLASS_NAME} valArr={CLASS_PEOPLE_NUMBER}/>
                 </div>
             </Card.Body>

@@ -164,22 +164,22 @@ export default function() {
     return (
         <Card>
             <Card.Header>
-                <h4>人数比例</h4>
+                <h4>1-1-2 人数比例</h4>
             </Card.Header>
             <Card.Body>
                 <div className='row'>
-                    <div className='col-12 col-lg-5'>
-                        <Ec option={option1} h='360px'/>
+                    <div className='col-12 col-lg-4'>
+                        <Ec option={option1} h='300px'/>
                     </div>
-                    <div className='col-12 col-lg-7'>
+                    <div className='col-12 col-lg-8'>
                         <div className='row'>
                             <div className='col-lg'>
-                                <Ec option={getOption2(politicalStatus)} h='180px'/>
+                                <Ec option={getOption2(politicalStatus)} h='150px'/>
                             </div>
                         </div>
                         <div className='row'>
                             <div className='col-lg'>
-                                <Ec option={getOption2(nationality)} h='180px'/>
+                                <Ec option={getOption2(nationality)} h='150px'/>
                             </div>
                         </div>
                     </div>

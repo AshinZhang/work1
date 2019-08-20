@@ -10,7 +10,7 @@ export default function (props) {
                     if (index > 0) {
                         return (
                             <React.Fragment key={index}>
-                                <br />
+                                <hr />
                                 {span}
                             </React.Fragment>
                         );
@@ -22,7 +22,7 @@ export default function (props) {
     );
     return (
         <OverlayTrigger trigger="click" placement="left" overlay={popover}>
-            <span className="badge badge-info cursor-pointer">{'说明'}</span>
+            <button className="badge badge-info border-0 ml-2">{'说明'}</button>
         </OverlayTrigger>
     );
 }
